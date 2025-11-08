@@ -20,7 +20,7 @@ public class Main {
         // Criando uma venda
         Venda venda = controller.criarVenda();
 
-        // Adicionando itens (Creator)
+        // Adicionando itens (no Creator)
         venda.adicionarItem(controller.buscarProdutoPorId("A01"), 2);
         venda.adicionarItem(controller.buscarProdutoPorId("L03"), 3);
 
